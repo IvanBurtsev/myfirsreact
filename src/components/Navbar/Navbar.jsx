@@ -1,13 +1,14 @@
+import classes from './Navbar.module.css'
 const Navbar = () => {
     return (
        
-       <nav className="navbar">
+       <nav className={classes.nav}>
          
-       <div><a>Profile</a> </div>    
-       <div><a> Message</a></div>     
-       <div><a> News</a></div>    
-       <div><a> Music</a> </div>    
-       <div> <a> Settings</a></div>
+       <div className={classes.item}><a>Profile</a> </div>    
+       <div className= {`${classes.item} ${classes.active}`}><a> Message</a></div>     
+       <div className={classes.item}><a> News</a></div>    
+       <div className={classes.item}><a> Music</a> </div>    
+       <div className={classes.item}> <a> Settings</a></div>
        
               
        </nav>
