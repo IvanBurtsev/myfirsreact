@@ -1,0 +1,27 @@
+.dialogs {
+    display: flex;
+    justify-content:space-start;
+    padding: 20px;   
+}
+
+.dialogsItems .dialog {
+    color: #ffffffff;
+
+}
+
+.dialog {
+
+}
+.dialogsItems .active {
+        
+    color: rgb(249, 181, 9);
+}
+
+.messages{
+padding: 0px 50px;
+color: #ffffffff;
+}
+
+.message {
+
+} 
