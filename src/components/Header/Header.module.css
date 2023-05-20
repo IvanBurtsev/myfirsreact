@@ -1,4 +1,8 @@
 .header{
     grid-area: h;
-    background-color: #ca7777;
+    background-color: #13904f; 
+  }
+  .logo {
+    padding: 15px 20px;
+    border-radius: 50%;
   }

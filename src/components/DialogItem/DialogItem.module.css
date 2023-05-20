@@ -1,0 +1,20 @@
+
+.dialogsItems{
+    padding: 0;
+}
+.dialog a {
+    color: #fff;
+    text-decoration: none;        
+    font-size: 16px;
+}
+
+.dialog a:hover {
+    color: greenyellow
+    
+}
+
+
+.dialogItem .active {        
+    color: rgb(249, 181, 9);
+}
+

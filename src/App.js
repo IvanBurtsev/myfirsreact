@@ -18,7 +18,7 @@ function App() {
      <Navbar/>
      <div className='app-wrapper-content'>         
       <Routes>
-      <Route path="/dialogs"  element={<Dialogs/>}  />
+      <Route path="/dialogs/*"  element={<Dialogs/>}  />
       <Route path="/content" element={<Content/>} />
       <Route path="/news" element={<News/>} />
       <Route path="/music" element={<Music/>} />
